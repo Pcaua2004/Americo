@@ -1,5 +1,7 @@
 const http = require("http");
 
+
+console.log("ALTERAÇÃAAAAO");
 // Servidor da Calculadora (Porta 8181)
 http.createServer(function (request, response) {
     response.setHeader("Content-Type", "text/html; charset=utf-8");
